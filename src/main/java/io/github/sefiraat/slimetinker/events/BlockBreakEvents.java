@@ -188,17 +188,17 @@ public final class BlockBreakEvents {
         if (m.containsKey(b.getType()) && m.get(b.getType()).equals(toolType) && GeneralUtils.testChance(1, 10)) {
             ItemStack i;
             int rnd2 = GeneralUtils.roll(1000);
-            if (rnd2 > 975) {
+            if (rnd2 > 985) {
                 i = new ItemStack(Material.ANCIENT_DEBRIS);
-            } else if (rnd2 > 900) {
+            } else if (rnd2 > 935) {
                 i = new ItemStack(Material.DIAMOND);
-            } else if (rnd2 > 800) {
+            } else if (rnd2 > 835) {
                 i = new ItemStack(Material.LAPIS_LAZULI);
-            } else if (rnd2 > 700) {
+            } else if (rnd2 > 735) {
                 i = new ItemStack(Material.REDSTONE);
-            } else if (rnd2 > 550) {
+            } else if (rnd2 > 585) {
                 i = new ItemStack(Material.GOLD_ORE);
-            } else if (rnd2 > 400) {
+            } else if (rnd2 > 435) {
                 i = new ItemStack(Material.IRON_ORE);
             } else {
                 i = new ItemStack(Material.COAL);
