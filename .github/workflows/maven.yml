@@ -38,4 +38,4 @@ jobs:
           automatic_release_tag: "SKYCRAFT"
           title: "SKYCRAFT 自动构建/发版"
           files: |
-            target/InfinityExpansion-*.jar
+            target/SlimeTinker-*.jar
