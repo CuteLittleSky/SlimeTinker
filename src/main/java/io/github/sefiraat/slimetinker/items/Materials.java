@@ -740,7 +740,7 @@ public final class Materials {
     // region Blocks
     public static final SlimefunItemStack BLOCK_CAST_VOID = ThemeUtils.themedItemStack(
         "BLOCK_CAST_VOID",
-        Material.NETHERITE_BLOCK,
+        Material.CRYING_OBSIDIAN,
         ThemeItemType.CRAFTING,
         "虚空块",
         "由熔融虚空(?)制成的块"
