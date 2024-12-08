@@ -105,13 +105,6 @@ public class IdMap {
         idMap.put(Ids.SEGGANESSON, "塞格尼森");
         idMap.put(Ids.UNPATENTABLIUM, "非专利品");
 
-        // DynaTech
-        idMap.put(Ids.STAINLESS_STEEL, "不锈钢");
-        idMap.put(Ids.VEX_GEM, "恼鬼宝石");
-        idMap.put(Ids.STARDUST, "星尘");
-        idMap.put(Ids.GHOSTLY_ESSENCE, "幽灵精华");
-        idMap.put(Ids.TESSERACT, "光学材料");
-
         // LiteXpansion
         idMap.put(Ids.RUBBER, "橡胶");
         idMap.put(Ids.REFINED_IRON, "精炼铁");

@@ -165,9 +165,6 @@ public class MaterialTrait {
         if (addedBy.equals(SupportedPluginsManager.SLIMEFUN_WARFARE_NOTE)) {
             return SkullTextures.TRAITS_WARFARE;
         }
-        if (addedBy.equals(SupportedPluginsManager.DYNATECH_NOTE)) {
-            return SkullTextures.TRAITS_DYNATECH;
-        }
         if (addedBy.equals(SupportedPluginsManager.LITEXPANSION_NOTE)) {
             return SkullTextures.TRAITS_LITEXPANSION;
         }

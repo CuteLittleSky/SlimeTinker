@@ -14,7 +14,6 @@ public final class SupportedPluginsManager {
 
     public static final boolean INFINITY_EXPANSION;
     public static final boolean SLIMEFUN_WARFARE;
-    public static final boolean DYNATECH;
     public static final boolean LITEXPANSION;
     public static final boolean TRANSCENDENCE;
     public static final boolean NETWORKS;
@@ -24,7 +23,6 @@ public final class SupportedPluginsManager {
     public static final String CORE_NOTE = ThemeUtils.MAIN + "粘液匠魂(SlimeTinker)";
     public static final String INFINITY_EXPANSION_NOTE = ThemeUtils.ADD_INFINITY + "无尽科技(InfinityExpansion)";
     public static final String SLIMEFUN_WARFARE_NOTE = ThemeUtils.ADD_SLIMEFUN_WARFARE + "战争工艺(SlimefunWarfare)";
-    public static final String DYNATECH_NOTE = ThemeUtils.ADD_DYNATECH + "动力科技(DynaTech)";
     public static final String LITEXPANSION_NOTE = ThemeUtils.ADD_LITEXPANSION + "工业(LiteXpansion)";
     public static final String TRANSCENDENCE_NOTE = ThemeUtils.ADD_TRANSCENDENCE + "末地科技(TranscEndence)";
     public static final String NETWORKS_NOTE = ThemeUtils.ADD_NETWORKS + "网络(Networks)";
@@ -33,7 +31,6 @@ public final class SupportedPluginsManager {
         PluginManager pluginManager = SlimeTinker.getInstance().getServer().getPluginManager();
         INFINITY_EXPANSION = pluginManager.isPluginEnabled("InfinityExpansion");
         SLIMEFUN_WARFARE = pluginManager.isPluginEnabled("SlimefunWarfare");
-        DYNATECH = pluginManager.isPluginEnabled("DynaTech");
         LITEXPANSION = pluginManager.isPluginEnabled("LiteXpansion");
         TRANSCENDENCE = pluginManager.isPluginEnabled("TranscEndence");
         NETWORKS = pluginManager.isPluginEnabled("Networks");
@@ -49,10 +46,6 @@ public final class SupportedPluginsManager {
 
     public static boolean isSlimefunWarfare() {
         return SLIMEFUN_WARFARE;
-    }
-
-    public static boolean isDynatech() {
-        return DYNATECH;
     }
 
     public static boolean isLitexpansion() {

@@ -90,13 +90,6 @@ public final class Ids {
     public static final String SEGGANESSON = "SEGGANESSON";
     public static final String UNPATENTABLIUM = "UNPATENTABLIUM";
 
-    // DynaTech
-    public static final String STAINLESS_STEEL = "STAINLESS_STEEL";
-    public static final String VEX_GEM = "VEX_GEM";
-    public static final String STARDUST = "STAR_DUST";
-    public static final String GHOSTLY_ESSENCE = "GHOSTLY_ESSENCE";
-    public static final String TESSERACT = "TESSERACTING_MATERIAL";
-
     // LiteXpansion
     public static final String RUBBER = "RUBBER";
     public static final String REFINED_IRON = "REFINED_IRON";

@@ -45,7 +45,6 @@ public final class ThemeUtils {
     public static final ChatColor ITEM_MULTIBLOCK = ChatColor.of("#3295a8");
     public static final ChatColor ADD_INFINITY = ChatColor.of("#7ecee0");
     public static final ChatColor ADD_SLIMEFUN_WARFARE = ChatColor.of("#c1db4d");
-    public static final ChatColor ADD_DYNATECH = ChatColor.of("#60d1cd");
     public static final ChatColor ADD_LITEXPANSION = ChatColor.of("#8a8a8a");
     public static final ChatColor ADD_TRANSCENDENCE = ChatColor.of("#c242f5");
     public static final ChatColor ADD_NETWORKS = ChatColor.of("#05ad08");

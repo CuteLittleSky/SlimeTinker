@@ -10,7 +10,6 @@ import io.github.sefiraat.slimetinker.items.tinkermaterials.elements.Alloy;
 import io.github.sefiraat.slimetinker.items.tinkermaterials.recipes.CastResult;
 import io.github.sefiraat.slimetinker.items.tinkermaterials.recipes.MoltenResult;
 import io.github.sefiraat.slimetinker.items.tinkermaterials.setup.TinkersMaterialsCore;
-import io.github.sefiraat.slimetinker.items.tinkermaterials.setup.TinkersMaterialsDynatech;
 import io.github.sefiraat.slimetinker.items.tinkermaterials.setup.TinkersMaterialsInfinity;
 import io.github.sefiraat.slimetinker.items.tinkermaterials.setup.TinkersMaterialsLiteXpansion;
 import io.github.sefiraat.slimetinker.items.tinkermaterials.setup.TinkersMaterialsNetworks;
@@ -113,9 +112,6 @@ public class TinkerMaterialManager {
         }
         if (SupportedPluginsManager.SLIMEFUN_WARFARE) {
             MAP.putAll(TinkersMaterialsSlimefunWarfare.getCmMap());
-        }
-        if (SupportedPluginsManager.DYNATECH) {
-            MAP.putAll(TinkersMaterialsDynatech.getCmMap());
         }
         if (SupportedPluginsManager.LITEXPANSION) {
             MAP.putAll(TinkersMaterialsLiteXpansion.getCmMap());
