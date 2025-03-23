@@ -58,29 +58,29 @@ public final class Ids {
     public static final String ANNIVERSARIUM = "ANNIVERSARIUM";
 
     // Infinity Expansion
-    public static final String VOID = "VOID";
-    public static final String INFINITY = "INFINITE";
-    public static final String FORTUNE_SINGULARITY = "FORTUNE_SINGULARITY";
-    public static final String MAGIC_SINGULARITY = "MAGIC_SINGULARITY";
-    public static final String EARTH_SINGULARITY = "EARTH_SINGULARITY";
-    public static final String METAL_SINGULARITY = "METAL_SINGULARITY";
-    public static final String MAGSTEEL = "MAGSTEEL";
-    public static final String TITANIUM = "TITANIUM";
-    public static final String MYTHRIL = "MYTHRIL";
-    public static final String ADAMANTITE = "ADAMANTITE";
-    public static final String MAGNONIUM = "MAGNONIUM";
-    public static final String COPPER_SINGULARITY = "COPPER_SINGULARITY";
-    public static final String ZINC_SINGULARITY = "ZINC_SINGULARITY";
-    public static final String TIN_SINGULARITY = "TIN_SINGULARITY";
-    public static final String ALUMINUM_SINGULARITY = "ALUMINUM_SINGULARITY";
-    public static final String SILVER_SINGULARITY = "SILVER_SINGULARITY";
-    public static final String MAGNESIUM_SINGULARITY = "MAGNESIUM_SINGULARITY";
-    public static final String LEAD_SINGULARITY = "LEAD_SINGULARITY";
-    public static final String GOLD_SINGULARITY = "GOLD_SINGULARITY";
-    public static final String IRON_SINGULARITY = "IRON_SINGULARITY";
-    public static final String DIAMOND_SINGULARITY = "DIAMOND_SINGULARITY";
-    public static final String INFINITY_SINGULARITY = "INFINITY_SINGULARITY";
-    public static final String REINFORCED_DRACONIUM = "REINFORCED_DRACONIUM";
+    public static final String IE_VOID = "IE_VOID";
+    public static final String INFINITY = "IE_INFINITY";
+    public static final String IE_FORTUNE_SINGULARITY = "IE_FORTUNE_SINGULARITY";
+    public static final String IE_MAGIC_SINGULARITY = "IE_MAGIC_SINGULARITY";
+    public static final String IE_EARTH_SINGULARITY = "IE_EARTH_SINGULARITY";
+    public static final String IE_METAL_SINGULARITY = "IE_METAL_SINGULARITY";
+    public static final String IE_MAGSTEEL = "IE_MAGSTEEL";
+    public static final String IE_TITANIUM = "IE_TITANIUM";
+    public static final String IE_MYTHRIL = "IE_MYTHRIL";
+    public static final String IE_ADAMANTITE = "IE_ADAMANTITE";
+    public static final String IE_MAGNONIUM = "IE_MAGNONIUM";
+    public static final String IE_COPPER_SINGULARITY = "IE_COPPER_SINGULARITY";
+    public static final String IE_ZINC_SINGULARITY = "IE_ZINC_SINGULARITY";
+    public static final String IE_TIN_SINGULARITY = "IE_TIN_SINGULARITY";
+    public static final String IE_ALUMINUM_SINGULARITY = "IE_ALUMINUM_SINGULARITY";
+    public static final String IE_SILVER_SINGULARITY = "IE_SILVER_SINGULARITY";
+    public static final String IE_MAGNESIUM_SINGULARITY = "IE_MAGNESIUM_SINGULARITY";
+    public static final String IE_LEAD_SINGULARITY = "IE_LEAD_SINGULARITY";
+    public static final String IE_GOLD_SINGULARITY = "IE_GOLD_SINGULARITY";
+    public static final String IE_IRON_SINGULARITY = "IE_IRON_SINGULARITY";
+    public static final String IE_DIAMOND_SINGULARITY = "IE_DIAMOND_SINGULARITY";
+    public static final String IE_INFINITY_SINGULARITY = "IE_INFINITY_SINGULARITY";
+    public static final String IE_REINFORCED_DRACONIUM = "IE_REINFORCED_DRACONIUM";
 
     // Slimefun Warfare
     public static final String SLIMESTEEL = "SLIME_STEEL";

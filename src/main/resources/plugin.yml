@@ -9,7 +9,7 @@ depend:
   - Slimefun
 softdepend:
   - GuizhanLibPlugin
-  - InfinityExpansion
+  - InfinityExpansion2
   - SlimefunWarfare
   - LiteXpansion
   - TranscEndence

@@ -1288,7 +1288,7 @@ public final class Traits {
 
     // region Infinity Expansion
 
-    public static final MaterialTrait INFINITY_VOID_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_VOID_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("虚空矿工")
@@ -1297,7 +1297,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::headVoid);
 
-    public static final MaterialTrait INFINITY_VOID_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_VOID_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("虚空恐惧")
@@ -1308,7 +1308,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::rodVoid);
 
-    public static final MaterialTrait INFINITY_VOID_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_VOID_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("虚空行者")
@@ -1318,7 +1318,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateVoid);
 
-    public static final MaterialTrait INFINITY_VOID_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_VOID_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("末地领主")
@@ -1327,7 +1327,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksVoid);
 
-    public static final MaterialTrait INFINITY_MAGSTEEL_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGSTEEL_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("真的是不锈钢")
@@ -1337,7 +1337,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headMagSteel);
 
-    public static final MaterialTrait INFINITY_MAGSTEEL_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGSTEEL_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("燃烧")
@@ -1347,7 +1347,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headMagnesium);
 
-    public static final MaterialTrait INFINITY_MAGSTEEL_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGSTEEL_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("暗淡")
@@ -1357,7 +1357,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::linksCopper);
 
-    public static final MaterialTrait INFINITY_MAGSTEEL_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGSTEEL_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("防御")
@@ -1367,7 +1367,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksMagSteel);
 
-    public static final MaterialTrait INFINITY_TITANIUM_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_TITANIUM_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("双倍强化")
@@ -1376,7 +1376,7 @@ public final class Traits {
             "(只需5个即可不消耗耐久)"
         );
 
-    public static final MaterialTrait INFINITY_TITANIUM_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_TITANIUM_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("耐用")
@@ -1387,7 +1387,7 @@ public final class Traits {
             "无法获得工具经验"
         );
 
-    public static final MaterialTrait INFINITY_TITANIUM_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_TITANIUM_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("地精")
@@ -1397,7 +1397,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::linksHardened);
 
-    public static final MaterialTrait INFINITY_TITANIUM_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_TITANIUM_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("防火")
@@ -1406,7 +1406,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksTitanium);
 
-    public static final MaterialTrait INFINITY_IRON_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_IRON_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("稳定 II")
@@ -1414,7 +1414,7 @@ public final class Traits {
             "还是没有特性"
         );
 
-    public static final MaterialTrait INFINITY_IRON_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_IRON_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("锋利 1 II")
@@ -1424,7 +1424,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodSingIron);
 
-    public static final MaterialTrait INFINITY_IRON_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_IRON_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("坚固 II")
@@ -1434,7 +1434,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateSingIron);
 
-    public static final MaterialTrait INFINITY_IRON_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_IRON_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("腐蚀 II")
@@ -1444,7 +1444,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::linksSingIron);
 
-    public static final MaterialTrait INFINITY_GOLD_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_GOLD_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("金色面纱 II")
@@ -1457,7 +1457,7 @@ public final class Traits {
         .addConsumer(TraitEventType.TICK, TickEvents::headSingGold)
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headSingGold);
 
-    public static final MaterialTrait INFINITY_GOLD_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_GOLD_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("闪闪发光 II")
@@ -1466,7 +1466,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodSingGold);
 
-    public static final MaterialTrait INFINITY_GOLD_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_GOLD_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("繁荣 II")
@@ -1476,7 +1476,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateSingGold);
 
-    public static final MaterialTrait INFINITY_GOLD_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_GOLD_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("来个交易 II")
@@ -1486,7 +1486,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::linksSingGold);
 
-    public static final MaterialTrait INFINITY_COPPER_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_COPPER_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("这是个脑力活 II")
@@ -1497,7 +1497,7 @@ public final class Traits {
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headSingCopper)
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::headSingCopper);
 
-    public static final MaterialTrait INFINITY_COPPER_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_COPPER_SINGULARITY_ROD = new MaterialTrait()
         // Special case, handled in Experience.java
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
@@ -1507,7 +1507,7 @@ public final class Traits {
             "并获得额外50%的加成"
         );
 
-    public static final MaterialTrait INFINITY_COPPER_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_COPPER_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("新手 II")
@@ -1518,7 +1518,7 @@ public final class Traits {
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateSingCopper)
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::plateSingCopper);
 
-    public static final MaterialTrait INFINITY_COPPER_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_COPPER_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("暗淡 II")
@@ -1528,7 +1528,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::linksSingCopper);
 
-    public static final MaterialTrait INFINITY_LEAD_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_LEAD_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("剧毒 II")
@@ -1537,7 +1537,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headSingLead);
 
-    public static final MaterialTrait INFINITY_LEAD_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_LEAD_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("蚂蟥 II")
@@ -1547,7 +1547,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodSingLead);
 
-    public static final MaterialTrait INFINITY_LEAD_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_LEAD_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("生病了 II")
@@ -1556,7 +1556,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::plateSingLead);
 
-    public static final MaterialTrait INFINITY_LEAD_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_LEAD_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("生病了 II")
@@ -1565,7 +1565,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::linksSingLead);
 
-    public static final MaterialTrait INFINITY_SILVER_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_SILVER_SINGULARITY_HEAD = new MaterialTrait()
         // Special Case, handled in Experience.java
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
@@ -1576,7 +1576,7 @@ public final class Traits {
             "附魔可能并不适用于该工具"
         );
 
-    public static final MaterialTrait INFINITY_SILVER_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_SILVER_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("轻触 II")
@@ -1586,7 +1586,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::rodSingSilver);
 
-    public static final MaterialTrait INFINITY_SILVER_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_SILVER_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("导电 II")
@@ -1596,7 +1596,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateSingSilver);
 
-    public static final MaterialTrait INFINITY_SILVER_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_SILVER_SINGULARITY_LINKS = new MaterialTrait()
         // Special Case, handled in Experience.java
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
@@ -1606,7 +1606,7 @@ public final class Traits {
             "附魔可能并不适用于该防具"
         );
 
-    public static final MaterialTrait INFINITY_ALUMINUM_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ALUMINUM_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("再生资源 II")
@@ -1615,7 +1615,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.DURABILITY, DurabilityEvents::headSingAluminum);
 
-    public static final MaterialTrait INFINITY_ALUMINUM_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ALUMINUM_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("柔韧 II")
@@ -1627,7 +1627,7 @@ public final class Traits {
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::rodSingAluminum)
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::rodSingAluminum);
 
-    public static final MaterialTrait INFINITY_ALUMINUM_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ALUMINUM_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("快跑 II")
@@ -1638,7 +1638,7 @@ public final class Traits {
         .addConsumer(TraitEventType.TICK, TickEvents::plateSingAluminium)
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateSingAluminium);
 
-    public static final MaterialTrait INFINITY_ALUMINUM_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ALUMINUM_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("快速修复 II")
@@ -1646,7 +1646,7 @@ public final class Traits {
             "只需要1个任意材质的修复工具即可完全修复"
         );
 
-    public static final MaterialTrait INFINITY_TIN_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_TIN_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("幸运 II")
@@ -1658,7 +1658,7 @@ public final class Traits {
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headSingTin)
         .addConsumer(TraitEventType.TICK, TickEvents::headSingTin);
 
-    public static final MaterialTrait INFINITY_TIN_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_TIN_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("罐头 II")
@@ -1667,7 +1667,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodSingTin);
 
-    public static final MaterialTrait INFINITY_TIN_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_TIN_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("抗毒 II")
@@ -1677,7 +1677,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::plateSingTin);
 
-    public static final MaterialTrait INFINITY_TIN_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_TIN_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("承伤 II")
@@ -1686,7 +1686,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksSingTin);
 
-    public static final MaterialTrait INFINITY_ZINC_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ZINC_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("海豚的恩惠 II")
@@ -1696,7 +1696,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::headSingZinc);
 
-    public static final MaterialTrait INFINITY_ZINC_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ZINC_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("飘浮 II")
@@ -1706,7 +1706,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodSingZinc);
 
-    public static final MaterialTrait INFINITY_ZINC_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ZINC_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("偷袭 II")
@@ -1717,7 +1717,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::plateSingZinc);
 
-    public static final MaterialTrait INFINITY_ZINC_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ZINC_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("针灸 II")
@@ -1727,7 +1727,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksSingZinc);
 
-    public static final MaterialTrait INFINITY_MAGNESIUM_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGNESIUM_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("燃烧 II")
@@ -1737,7 +1737,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headSingMagnesium);
 
-    public static final MaterialTrait INFINITY_MAGNESIUM_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGNESIUM_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("磁铁 II")
@@ -1746,7 +1746,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodSingMagnesium);
 
-    public static final MaterialTrait INFINITY_MAGNESIUM_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGNESIUM_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("快溜 II")
@@ -1757,7 +1757,7 @@ public final class Traits {
         .addConsumer(TraitEventType.TICK, TickEvents::plateSingMagnesium)
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::plateSingMagnesium);
 
-    public static final MaterialTrait INFINITY_MAGNESIUM_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGNESIUM_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("镁地™夜视 II")
@@ -1767,7 +1767,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::linksSingMagnesium);
 
-    public static final MaterialTrait INFINITY_MYTHRIL_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MYTHRIL_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("精灵疾驰")
@@ -1779,7 +1779,7 @@ public final class Traits {
         .addConsumer(TraitEventType.DURABILITY, DurabilityEvents::headMythril)
         .addConsumer(TraitEventType.TICK, TickEvents::headMythril);
 
-    public static final MaterialTrait INFINITY_MYTHRIL_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MYTHRIL_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("贡多林刺针")
@@ -1788,7 +1788,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodMythril);
 
-    public static final MaterialTrait INFINITY_MYTHRIL_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MYTHRIL_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("魔童")
@@ -1800,7 +1800,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::brightBurn);
 
-    public static final MaterialTrait INFINITY_MYTHRIL_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MYTHRIL_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("野性的呼唤")
@@ -1810,7 +1810,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksMythril);
 
-    public static final MaterialTrait INFINITY_ADAMANTITE_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ADAMANTITE_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("神秘")
@@ -1824,7 +1824,7 @@ public final class Traits {
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::headAdamantite)
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headAdamantite);
 
-    public static final MaterialTrait INFINITY_ADAMANTITE_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ADAMANTITE_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("坚硬")
@@ -1833,7 +1833,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::rodAdamantite);
 
-    public static final MaterialTrait INFINITY_ADAMANTITE_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ADAMANTITE_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("射歪了")
@@ -1842,7 +1842,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateAdamantite);
 
-    public static final MaterialTrait INFINITY_ADAMANTITE_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_ADAMANTITE_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("有经验的")
@@ -1853,7 +1853,7 @@ public final class Traits {
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::linksAdamantite)
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::linksAdamantite);
 
-    public static final MaterialTrait INFINITY_MAGNONIUM_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGNONIUM_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("宽宏大量")
@@ -1863,7 +1863,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::headMagnonium);
 
-    public static final MaterialTrait INFINITY_MAGNONIUM_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGNONIUM_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("炽热")
@@ -1872,7 +1872,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::headCorbronze);
 
-    public static final MaterialTrait INFINITY_MAGNONIUM_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGNONIUM_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("逃脱")
@@ -1882,7 +1882,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksAluBrass);
 
-    public static final MaterialTrait INFINITY_MAGNONIUM_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGNONIUM_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("有氧")
@@ -1892,7 +1892,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksMagnonium);
 
-    public static final MaterialTrait INFINITY_FORTUNE_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_FORTUNE_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("幸运")
@@ -1902,7 +1902,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::headFortune);
 
-    public static final MaterialTrait INFINITY_FORTUNE_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_FORTUNE_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("商人面纱")
@@ -1912,7 +1912,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodFortune);
 
-    public static final MaterialTrait INFINITY_FORTUNE_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_FORTUNE_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("多么幸运")
@@ -1922,7 +1922,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateFortune);
 
-    public static final MaterialTrait INFINITY_FORTUNE_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_FORTUNE_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("鲜花")
@@ -1931,7 +1931,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::plateAluBronze);
 
-    public static final MaterialTrait INFINITY_MAGIC_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGIC_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("魔术戏法")
@@ -1945,7 +1945,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::headMagic);
 
-    public static final MaterialTrait INFINITY_MAGIC_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGIC_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("揭露秘密")
@@ -1954,7 +1954,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::rodMagic);
 
-    public static final MaterialTrait INFINITY_MAGIC_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGIC_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("巫师袍")
@@ -1964,7 +1964,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::plateMagic);
 
-    public static final MaterialTrait INFINITY_MAGIC_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_MAGIC_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("魔法薄荷")
@@ -1973,7 +1973,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksMagic);
 
-    public static final MaterialTrait INFINITY_EARTH_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_EARTH_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("撼地者")
@@ -1982,7 +1982,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headEarth);
 
-    public static final MaterialTrait INFINITY_EARTH_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_EARTH_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("粉碎机")
@@ -1992,7 +1992,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::rodEarth);
 
-    public static final MaterialTrait INFINITY_EARTH_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_EARTH_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("岩浆行者")
@@ -2001,7 +2001,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.TICK, TickEvents::plateEarth);
 
-    public static final MaterialTrait INFINITY_EARTH_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_EARTH_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("自然法则")
@@ -2012,7 +2012,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.INTERACT, InteractionEvents::linksEarth);
 
-    public static final MaterialTrait INFINITY_METAL_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_METAL_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("干净利落")
@@ -2023,7 +2023,7 @@ public final class Traits {
         .addConsumer(TraitEventType.TICK, TickEvents::headMetal)
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headMetal);
 
-    public static final MaterialTrait INFINITY_METAL_SINGULARITY_ROD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_METAL_SINGULARITY_ROD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_ROD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("经验导体")
@@ -2034,7 +2034,7 @@ public final class Traits {
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::rodMetal)
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::rodMetal);
 
-    public static final MaterialTrait INFINITY_METAL_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_METAL_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("圆桌骑士")
@@ -2045,7 +2045,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateMetal);
 
-    public static final MaterialTrait INFINITY_METAL_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_METAL_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("闪光弹")
@@ -2095,7 +2095,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksInfinity);
 
-    public static final MaterialTrait INFINITY_INFINITY_SINGULARITY_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_INFINITY_SINGULARITY_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("断点")
@@ -2109,7 +2109,7 @@ public final class Traits {
         .addConsumer(TraitEventType.ENTITY_DAMAGED, EntityDamageEvents::headSingInfinity)
         .addConsumer(TraitEventType.BLOCK_BREAK, BlockBreakEvents::headSingInfinity);
 
-    public static final MaterialTrait INFINITY_INFINITY_SINGULARITY_PLATES = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_INFINITY_SINGULARITY_PLATES = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_PLATES)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("无尽力量")
@@ -2120,7 +2120,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::plateSingInfinity);
 
-    public static final MaterialTrait INFINITY_INFINITY_SINGULARITY_LINKS = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_INFINITY_SINGULARITY_LINKS = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_LINKS)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setTraitName("无尽防御")
@@ -2130,7 +2130,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksSingInfinity);
 
-    public static final MaterialTrait INFINITY_REINFORCED_DRACONIUM_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_IE_REINFORCED_DRACONIUM_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setSponsoredBy("Bunkky/ReasonFoundDecoy")

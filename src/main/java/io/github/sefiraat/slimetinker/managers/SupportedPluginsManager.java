@@ -29,7 +29,7 @@ public final class SupportedPluginsManager {
 
     static {
         PluginManager pluginManager = SlimeTinker.getInstance().getServer().getPluginManager();
-        INFINITY_EXPANSION = pluginManager.isPluginEnabled("InfinityExpansion");
+        INFINITY_EXPANSION = pluginManager.isPluginEnabled("InfinityExpansion2");
         SLIMEFUN_WARFARE = pluginManager.isPluginEnabled("SlimefunWarfare");
         LITEXPANSION = pluginManager.isPluginEnabled("LiteXpansion");
         TRANSCENDENCE = pluginManager.isPluginEnabled("TranscEndence");

@@ -92,7 +92,7 @@ public class ToolTable extends TickingMenuBlock {
         if (
             toolDefinition.getHeadMaterial().equals(Ids.REINFORCED_ALLOY) ||
                 toolDefinition.getRodMaterial().equals(Ids.HARDENED_METAL) ||
-                toolDefinition.getHeadMaterial().equals(Ids.INFINITY_SINGULARITY) ||
+                toolDefinition.getHeadMaterial().equals(Ids.IE_INFINITY_SINGULARITY) ||
                 toolDefinition.getHeadMaterial().equals(Ids.OSMIUM)
         ) { // Reinforced Head/Hard Rod tools are explosive
             switch (toolDefinition.getPartType()) {

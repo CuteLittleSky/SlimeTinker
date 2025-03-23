@@ -415,15 +415,15 @@ public final class PlayerDamagedEvents {
             int roll = GeneralUtils.roll(100);
             ItemStack i;
             if (roll < 5) {
-                i = Materials.NUGGET_CAST_ADAMANTITE.clone();
+                i = Materials.NUGGET_CAST_IE_ADAMANTITE.clone();
             } else if (roll < 10) {
-                i = Materials.NUGGET_CAST_TITANIUM.clone();
+                i = Materials.NUGGET_CAST_IE_TITANIUM.clone();
             } else if (roll < 15) {
-                i = Materials.NUGGET_CAST_MYTHRIL.clone();
+                i = Materials.NUGGET_CAST_IE_MYTHRIL.clone();
             } else if (roll < 20) {
-                i = Materials.NUGGET_CAST_MAGNONIUM.clone();
+                i = Materials.NUGGET_CAST_IE_MAGNONIUM.clone();
             } else if (roll < 25) {
-                i = Materials.NUGGET_CAST_MAGSTEEL.clone();
+                i = Materials.NUGGET_CAST_IE_MAGSTEEL.clone();
             } else if (roll < 30) {
                 i = Materials.NUGGET_CAST_REINFORCED.clone();
             } else if (roll < 35) {
@@ -460,7 +460,7 @@ public final class PlayerDamagedEvents {
     public static void plateInfinity(EventFriend friend) {
         ItemStack i = friend.getActiveStack();
         ItemMeta im = i.getItemMeta();
-        NamespacedKey k = Keys.ARMOUR_INFINITE_CAPACITY_STORED;
+        NamespacedKey k = Keys.ARMOUR_IE_INFINITY_CAPACITY_STORED;
         double d = PersistentDataAPI.getDouble(im, k, 0);
         if (d < 5) {
             d = Math.min(5, d + friend.getInitialDamage() / 10);

@@ -482,7 +482,7 @@ public final class ItemUtils {
         if (isTool(itemStack)) {
             return
                 !getToolHeadMaterial(itemStack).equals(Ids.DURALUMIN)
-                    && !getToolRodMaterial(itemStack).equals(Ids.TITANIUM);
+                    && !getToolRodMaterial(itemStack).equals(Ids.IE_TITANIUM);
 
         }
         return true;
@@ -503,7 +503,7 @@ public final class ItemUtils {
 
     public static boolean repairBenchEasyFix2(ItemStack itemStack) {
         if (isArmour(itemStack)) {
-            return getArmourLinksMaterial(itemStack).equals(Ids.ALUMINUM_SINGULARITY);
+            return getArmourLinksMaterial(itemStack).equals(Ids.IE_ALUMINUM_SINGULARITY);
         }
         return false;
     }
@@ -519,10 +519,10 @@ public final class ItemUtils {
     public static boolean isEnchanting(ItemStack itemStack) {
         if (isTool(itemStack)) {
             return getToolHeadMaterial(itemStack).equals(Ids.SILVER)
-                || getToolHeadMaterial(itemStack).equals(Ids.SILVER_SINGULARITY);
+                || getToolHeadMaterial(itemStack).equals(Ids.IE_SILVER_SINGULARITY);
         } else if (isArmour(itemStack)) {
             return getArmourLinksMaterial(itemStack).equals(Ids.SILVER)
-                || getArmourLinksMaterial(itemStack).equals(Ids.SILVER_SINGULARITY);
+                || getArmourLinksMaterial(itemStack).equals(Ids.IE_SILVER_SINGULARITY);
         } else {
             return false;
         }
@@ -540,9 +540,9 @@ public final class ItemUtils {
 
     public static boolean isEnchanting2(ItemStack itemStack) {
         if (isTool(itemStack)) {
-            return getToolHeadMaterial(itemStack).equals(Ids.SILVER_SINGULARITY);
+            return getToolHeadMaterial(itemStack).equals(Ids.IE_SILVER_SINGULARITY);
         } else if (isArmour(itemStack)) {
-            return getArmourLinksMaterial(itemStack).equals(Ids.SILVER_SINGULARITY);
+            return getArmourLinksMaterial(itemStack).equals(Ids.IE_SILVER_SINGULARITY);
         } else {
             return false;
         }
@@ -551,7 +551,7 @@ public final class ItemUtils {
     public static boolean isConductive(ItemStack itemStack) {
         if (isTool(itemStack)) {
             return getToolRodMaterial(itemStack).equals(Ids.COPPER)
-                || getToolRodMaterial(itemStack).equals(Ids.COPPER_SINGULARITY);
+                || getToolRodMaterial(itemStack).equals(Ids.IE_COPPER_SINGULARITY);
         } else {
             return false;
         }
@@ -567,7 +567,7 @@ public final class ItemUtils {
 
     public static boolean isConductive2(ItemStack itemStack) {
         if (isTool(itemStack)) {
-            return getToolRodMaterial(itemStack).equals(Ids.COPPER_SINGULARITY);
+            return getToolRodMaterial(itemStack).equals(Ids.IE_COPPER_SINGULARITY);
         } else {
             return false;
         }
@@ -721,7 +721,7 @@ public final class ItemUtils {
     public static boolean isToolExplosive(@Nonnull String headMaterial, String rodMaterial) {
         return headMaterial.equals(Ids.REINFORCED_ALLOY)
             || rodMaterial.equals(Ids.HARDENED_METAL)
-            || headMaterial.equals(Ids.INFINITY_SINGULARITY)
+            || headMaterial.equals(Ids.IE_INFINITY_SINGULARITY)
             || headMaterial.equals(Ids.OSMIUM);
     }
 

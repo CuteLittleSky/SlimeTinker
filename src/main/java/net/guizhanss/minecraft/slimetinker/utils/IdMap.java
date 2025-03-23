@@ -65,7 +65,7 @@ public class IdMap {
         idMap.put(Ids.LIQUID_LOVE, "爱");
         idMap.put(Ids.NICEINIUM, "Nice");
         idMap.put(Ids.DRACONIC, "龙息");
-        idMap.put(Ids.REINFORCED_DRACONIUM, "强化龙");
+        idMap.put(Ids.IE_REINFORCED_DRACONIUM, "强化龙");
 
         // Mods
         idMap.put("QUARTZ", "石英");
@@ -74,28 +74,28 @@ public class IdMap {
         idMap.put("EMERALD", "绿宝石");
 
         // Infinity Expansion (SlimefunGuguProject)
-        idMap.put(Ids.VOID, "虚空");
+        idMap.put(Ids.IE_VOID, "虚空");
         idMap.put(Ids.INFINITY, "无尽");
-        idMap.put(Ids.FORTUNE_SINGULARITY, "时运奇点");
-        idMap.put(Ids.MAGIC_SINGULARITY, "魔法奇点");
-        idMap.put(Ids.EARTH_SINGULARITY, "地球奇点");
-        idMap.put(Ids.METAL_SINGULARITY, "金属奇点");
-        idMap.put(Ids.MAGSTEEL, "磁钢");
-        idMap.put(Ids.TITANIUM, "钛");
-        idMap.put(Ids.MYTHRIL, "秘银");
-        idMap.put(Ids.ADAMANTITE, "精金");
-        idMap.put(Ids.MAGNONIUM, "磁金");
-        idMap.put(Ids.COPPER_SINGULARITY, "铜奇点");
-        idMap.put(Ids.ZINC_SINGULARITY, "锌奇点");
-        idMap.put(Ids.TIN_SINGULARITY, "锡奇点");
-        idMap.put(Ids.ALUMINUM_SINGULARITY, "铝奇点");
-        idMap.put(Ids.SILVER_SINGULARITY, "银奇点");
-        idMap.put(Ids.MAGNESIUM_SINGULARITY, "镁奇点");
-        idMap.put(Ids.LEAD_SINGULARITY, "铅奇点");
-        idMap.put(Ids.GOLD_SINGULARITY, "金奇点");
-        idMap.put(Ids.IRON_SINGULARITY, "铁奇点");
-        idMap.put(Ids.DIAMOND_SINGULARITY, "钻石奇点");
-        idMap.put(Ids.INFINITY_SINGULARITY, "无尽奇点");
+        idMap.put(Ids.IE_FORTUNE_SINGULARITY, "时运奇点");
+        idMap.put(Ids.IE_MAGIC_SINGULARITY, "魔法奇点");
+        idMap.put(Ids.IE_EARTH_SINGULARITY, "地球奇点");
+        idMap.put(Ids.IE_METAL_SINGULARITY, "金属奇点");
+        idMap.put(Ids.IE_MAGSTEEL, "磁钢");
+        idMap.put(Ids.IE_TITANIUM, "钛");
+        idMap.put(Ids.IE_MYTHRIL, "秘银");
+        idMap.put(Ids.IE_ADAMANTITE, "精金");
+        idMap.put(Ids.IE_MAGNONIUM, "磁金");
+        idMap.put(Ids.IE_COPPER_SINGULARITY, "铜奇点");
+        idMap.put(Ids.IE_ZINC_SINGULARITY, "锌奇点");
+        idMap.put(Ids.IE_TIN_SINGULARITY, "锡奇点");
+        idMap.put(Ids.IE_ALUMINUM_SINGULARITY, "铝奇点");
+        idMap.put(Ids.IE_SILVER_SINGULARITY, "银奇点");
+        idMap.put(Ids.IE_MAGNESIUM_SINGULARITY, "镁奇点");
+        idMap.put(Ids.IE_LEAD_SINGULARITY, "铅奇点");
+        idMap.put(Ids.IE_GOLD_SINGULARITY, "金奇点");
+        idMap.put(Ids.IE_IRON_SINGULARITY, "铁奇点");
+        idMap.put(Ids.IE_DIAMOND_SINGULARITY, "钻石奇点");
+        idMap.put(Ids.IE_INFINITY_SINGULARITY, "无尽奇点");
 
         // Slimefun Warfare
         idMap.put(Ids.SLIMESTEEL, "软钢");

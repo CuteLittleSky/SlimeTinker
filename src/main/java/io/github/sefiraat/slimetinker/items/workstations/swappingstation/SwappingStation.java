@@ -215,7 +215,7 @@ public class SwappingStation extends MenuBlock {
         return (
             (material.equals(Ids.REINFORCED_ALLOY) && part.equals(Ids.HEAD)) ||
                 (material.equals(Ids.HARDENED_METAL) && part.equals(Ids.ROD)) ||
-                (material.equals(Ids.INFINITY_SINGULARITY) && part.equals(Ids.HEAD)) ||
+                (material.equals(Ids.IE_INFINITY_SINGULARITY) && part.equals(Ids.HEAD)) ||
                 (material.equals(Ids.OSMIUM) && part.equals(Ids.HEAD))
         );
     }

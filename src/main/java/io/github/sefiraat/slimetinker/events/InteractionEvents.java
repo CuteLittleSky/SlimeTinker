@@ -128,7 +128,7 @@ public final class InteractionEvents {
     public static void plateInfinity(EventFriend friend) {
         ItemStack i = friend.getActiveStack();
         ItemMeta im = i.getItemMeta();
-        NamespacedKey k = Keys.ARMOUR_INFINITE_CAPACITY_STORED;
+        NamespacedKey k = Keys.ARMOUR_IE_INFINITY_CAPACITY_STORED;
         double d = PersistentDataAPI.getDouble(im, k, 0);
         if (d > 1) {
             List<Entity> entityList = friend.getPlayer().getNearbyEntities(3, 3, 3);

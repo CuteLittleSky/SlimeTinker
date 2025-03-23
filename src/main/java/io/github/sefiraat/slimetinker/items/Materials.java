@@ -288,8 +288,8 @@ public final class Materials {
         "周年庆粒",
         "庆祝粘液科技10周年!"
     );
-    public static final SlimefunItemStack NUGGET_CAST_REINFORCED_DRACONIUM = ThemeUtils.themedItemStack(
-        "NUGGET_CAST_REINFORCED_DRACONIUM",
+    public static final SlimefunItemStack NUGGET_CAST_IE_REINFORCED_DRACONIUM = ThemeUtils.themedItemStack(
+        "NUGGET_CAST_IE_REINFORCED_DRACONIUM",
         Material.CRIMSON_BUTTON,
         ThemeItemType.CRAFTING,
         "强化龙粒",
@@ -370,8 +370,8 @@ public final class Materials {
         "周年庆锭",
         "庆祝粘液科技10周年!"
     );
-    public static final SlimefunItemStack INGOT_CAST_REINFORCED_DRACONIUM = ThemeUtils.themedItemStack(
-        "INGOT_CAST_REINFORCED_DRACONIUM",
+    public static final SlimefunItemStack INGOT_CAST_IE_REINFORCED_DRACONIUM = ThemeUtils.themedItemStack(
+        "INGOT_CAST_IE_REINFORCED_DRACONIUM",
         Material.BRICK,
         ThemeItemType.CRAFTING,
         "强化龙锭",
@@ -613,8 +613,8 @@ public final class Materials {
         "周年庆块",
         "庆祝粘液科技10周年!"
     );
-    public static final SlimefunItemStack BLOCK_CAST_REINFORCED_DRACONIUM = ThemeUtils.themedItemStack(
-        "BLOCK_CAST_REINFORCED_DRACONIUM",
+    public static final SlimefunItemStack BLOCK_CAST_IE_REINFORCED_DRACONIUM = ThemeUtils.themedItemStack(
+        "BLOCK_CAST_IE_REINFORCED_DRACONIUM",
         Material.RED_CONCRETE,
         ThemeItemType.CRAFTING,
         "强化龙块",
@@ -695,40 +695,40 @@ public final class Materials {
         "由熔融无尽制成的粒"
     );
 
-    public static final SlimefunItemStack NUGGET_CAST_MAGSTEEL = ThemeUtils.themedItemStack(
-        "NUGGET_CAST_MAGSTEEL",
+    public static final SlimefunItemStack NUGGET_CAST_IE_MAGSTEEL = ThemeUtils.themedItemStack(
+        "NUGGET_CAST_IE_MAGSTEEL",
         Material.ACACIA_BUTTON,
         ThemeItemType.CRAFTING,
         "磁钢粒",
         "由熔融磁钢制成的粒"
     );
 
-    public static final SlimefunItemStack NUGGET_CAST_TITANIUM = ThemeUtils.themedItemStack(
-        "NUGGET_CAST_TITANIUM",
+    public static final SlimefunItemStack NUGGET_CAST_IE_TITANIUM = ThemeUtils.themedItemStack(
+        "NUGGET_CAST_IE_TITANIUM",
         Material.IRON_NUGGET,
         ThemeItemType.CRAFTING,
         "钛粒",
         "由熔融钛制成的粒"
     );
 
-    public static final SlimefunItemStack NUGGET_CAST_MYTHRIL = ThemeUtils.themedItemStack(
-        "NUGGET_CAST_MYTHRIL",
+    public static final SlimefunItemStack NUGGET_CAST_IE_MYTHRIL = ThemeUtils.themedItemStack(
+        "NUGGET_CAST_IE_MYTHRIL",
         Material.IRON_NUGGET,
         ThemeItemType.CRAFTING,
         "秘银粒",
         "由熔融秘银制成的粒"
     );
 
-    public static final SlimefunItemStack NUGGET_CAST_ADAMANTITE = ThemeUtils.themedItemStack(
-        "NUGGET_CAST_ADAMANTITE",
+    public static final SlimefunItemStack NUGGET_CAST_IE_ADAMANTITE = ThemeUtils.themedItemStack(
+        "NUGGET_CAST_IE_ADAMANTITE",
         Material.ACACIA_BUTTON,
         ThemeItemType.CRAFTING,
         "精金粒",
         "由熔融精金制成的粒"
     );
 
-    public static final SlimefunItemStack NUGGET_CAST_MAGNONIUM = ThemeUtils.themedItemStack(
-        "NUGGET_CAST_MAGNONIUM",
+    public static final SlimefunItemStack NUGGET_CAST_IE_MAGNONIUM = ThemeUtils.themedItemStack(
+        "NUGGET_CAST_IE_MAGNONIUM",
         Material.CRIMSON_BUTTON,
         ThemeItemType.CRAFTING,
         "镁合金粒",
@@ -738,8 +738,8 @@ public final class Materials {
     // endregion
 
     // region Blocks
-    public static final SlimefunItemStack BLOCK_CAST_VOID = ThemeUtils.themedItemStack(
-        "BLOCK_CAST_VOID",
+    public static final SlimefunItemStack BLOCK_CAST_IE_VOID = ThemeUtils.themedItemStack(
+        "BLOCK_CAST_IE_VOID",
         Material.CRYING_OBSIDIAN,
         ThemeItemType.CRAFTING,
         "虚空块",
@@ -754,40 +754,40 @@ public final class Materials {
         "由熔融无尽制成的块"
     );
 
-    public static final SlimefunItemStack BLOCK_CAST_MAGSTEEL = ThemeUtils.themedItemStack(
-        "BLOCK_CAST_MAGSTEEL",
+    public static final SlimefunItemStack BLOCK_CAST_IE_MAGSTEEL = ThemeUtils.themedItemStack(
+        "BLOCK_CAST_IE_MAGSTEEL",
         Material.TERRACOTTA,
         ThemeItemType.CRAFTING,
         "磁钢块",
         "由熔融磁钢制成的块"
     );
 
-    public static final SlimefunItemStack BLOCK_CAST_TITANIUM = ThemeUtils.themedItemStack(
-        "BLOCK_CAST_TITANIUM",
+    public static final SlimefunItemStack BLOCK_CAST_IE_TITANIUM = ThemeUtils.themedItemStack(
+        "BLOCK_CAST_IE_TITANIUM",
         Material.IRON_BLOCK,
         ThemeItemType.CRAFTING,
         "钛块",
         "由熔融钛制成的块"
     );
 
-    public static final SlimefunItemStack BLOCK_CAST_MYTHRIL = ThemeUtils.themedItemStack(
-        "BLOCK_CAST_MYTHRIL",
+    public static final SlimefunItemStack BLOCK_CAST_IE_MYTHRIL = ThemeUtils.themedItemStack(
+        "BLOCK_CAST_IE_MYTHRIL",
         Material.IRON_BLOCK,
         ThemeItemType.CRAFTING,
         "秘银块",
         "由熔融制成的块"
     );
 
-    public static final SlimefunItemStack BLOCK_CAST_ADAMANTITE = ThemeUtils.themedItemStack(
-        "BLOCK_CAST_ADAMANTITE",
+    public static final SlimefunItemStack BLOCK_CAST_IE_ADAMANTITE = ThemeUtils.themedItemStack(
+        "BLOCK_CAST_IE_ADAMANTITE",
         Material.TERRACOTTA,
         ThemeItemType.CRAFTING,
         "精金块",
         "由熔融精金制成的块"
     );
 
-    public static final SlimefunItemStack BLOCK_CAST_MAGNONIUM = ThemeUtils.themedItemStack(
-        "BLOCK_CAST_MAGNONIUM",
+    public static final SlimefunItemStack BLOCK_CAST_IE_MAGNONIUM = ThemeUtils.themedItemStack(
+        "BLOCK_CAST_IE_MAGNONIUM",
         Material.PURPLE_TERRACOTTA,
         ThemeItemType.CRAFTING,
         "镁合金块",
@@ -1268,33 +1268,33 @@ public final class Materials {
         new UnplaceableBlock(ItemGroups.MATERIALS, INGOT_CAST_ANNIVERSARIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_INGOT)).register(p);
         new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_ANNIVERSARIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
 
-        new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_REINFORCED_DRACONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
-        new UnplaceableBlock(ItemGroups.MATERIALS, INGOT_CAST_REINFORCED_DRACONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_INGOT)).register(p);
-        new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_REINFORCED_DRACONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
+        new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_IE_REINFORCED_DRACONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
+        new UnplaceableBlock(ItemGroups.MATERIALS, INGOT_CAST_IE_REINFORCED_DRACONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_INGOT)).register(p);
+        new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_IE_REINFORCED_DRACONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
 
         new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_COAL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
 
         // Infinity Expansion
         if (SupportedPluginsManager.INFINITY_EXPANSION) {
-            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_VOID, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_IE_VOID, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
 
             new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_INFINITY, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
             new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_INFINITY, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
 
-            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_MAGSTEEL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
-            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_MAGSTEEL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_IE_MAGSTEEL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_IE_MAGSTEEL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
 
-            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_TITANIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
-            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_TITANIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_IE_TITANIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_IE_TITANIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
 
-            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_MYTHRIL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
-            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_MYTHRIL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_IE_MYTHRIL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_IE_MYTHRIL, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
 
-            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_ADAMANTITE, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
-            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_ADAMANTITE, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_IE_ADAMANTITE, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_IE_ADAMANTITE, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
 
-            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_MAGNONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
-            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_MAGNONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, NUGGET_CAST_IE_MAGNONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_NUGGET)).register(p);
+            new UnplaceableBlock(ItemGroups.MATERIALS, BLOCK_CAST_IE_MAGNONIUM, DummySmeltery.TYPE, ItemUtils.getMiddleOnlyRecipe(Casts.CAST_BLOCK)).register(p);
         }
 
         // SFWarfare
