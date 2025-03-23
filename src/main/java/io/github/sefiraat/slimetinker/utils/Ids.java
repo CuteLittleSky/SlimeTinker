@@ -80,7 +80,7 @@ public final class Ids {
     public static final String IE_IRON_SINGULARITY = "IE_IRON_SINGULARITY";
     public static final String IE_DIAMOND_SINGULARITY = "IE_DIAMOND_SINGULARITY";
     public static final String IE_INFINITY_SINGULARITY = "IE_INFINITY_SINGULARITY";
-    public static final String IE_REINFORCED_DRACONIUM = "IE_REINFORCED_DRACONIUM";
+    public static final String REINFORCED_DRACONIUM = "REINFORCED_DRACONIUM";
 
     // Slimefun Warfare
     public static final String SLIMESTEEL = "SLIME_STEEL";

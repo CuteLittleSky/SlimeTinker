@@ -2130,7 +2130,7 @@ public final class Traits {
         )
         .addConsumer(TraitEventType.PLAYER_DAMAGED, PlayerDamagedEvents::linksSingInfinity);
 
-    public static final MaterialTrait INFINITY_IE_REINFORCED_DRACONIUM_HEAD = new MaterialTrait()
+    public static final MaterialTrait INFINITY_REINFORCED_DRACONIUM_HEAD = new MaterialTrait()
         .setPartType(MaterialTrait.PROP_HEAD)
         .setAddedBy(SupportedPluginsManager.INFINITY_EXPANSION_NOTE)
         .setSponsoredBy("Bunkky/ReasonFoundDecoy")
